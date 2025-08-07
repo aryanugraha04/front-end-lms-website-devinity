@@ -9,7 +9,7 @@ const Hero = () => {
 
       <h1 className='md:text-[48px] md:leading-[56px] text-[29px] leading-[34px] relative 
       font-bold text-gray-800 max-w-3xl mx-auto'>Empower your future with the 
-      courses designed to <span className='text-gradient-anim'> fit your choice.</span>
+      courses designed to <span className='text-gradient-anim'> fit your</span>
       <img src={assets.sketch} alt="sketch" className='md:block hidden 
       absolute -bottom-7 right-0'/></h1>
 
