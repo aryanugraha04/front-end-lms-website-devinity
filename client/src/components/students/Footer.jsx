@@ -9,7 +9,9 @@ const Footer = () => {
       border-white/30'>
         <div className='flex flex-col md:items-start items-center w-full'>
           <img src={assets.logo_dark} alt="logo" />
-          <p className='mt-6 text-center md:text-left text-sm text-white/80'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p className='mt-6 text-center md:text-left text-sm text-white/80'>Devinity is an e-learning 
+          platform providing high-quality courses from industry experts to help you achieve your professional 
+          and personal goals.</p>
         </div>
         <div className='flex flex-col md:items-start items-center w-full'>
           <h2 className='font-semibold text-white mb-5'>Company</h2>

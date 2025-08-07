@@ -38,7 +38,8 @@ const StudentsEnrolled = () => {
                     src={item.student.imageUrl} 
                     alt="" 
                     className='w-9 h-9 rounded-full'/>
-                  <span className='truncate'>{item.student.name}</span>
+                  {/* <span className='truncate'>{item.student.name}</span> */}
+                  <span className='truncate'>Arya Nugraha</span>
                 </td>
                 <td className='px-4 py-3 truncate'>{item.courseTitle}</td>
                 <td className='px-4 py-3 hidden sm:table-cell'>{new Date(item.

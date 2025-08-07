@@ -9,9 +9,7 @@ const Hero = () => {
 
       <h1 className='md:text-[48px] md:leading-[56px] text-[29px] leading-[34px] relative 
       font-bold text-gray-800 max-w-3xl mx-auto'>Empower your future with the 
-      courses designed to <span className='text-gradient-anim'> fit your</span>
-      <img src={assets.sketch} alt="sketch" className='md:block hidden 
-      absolute -bottom-7 right-0'/></h1>
+      courses designed to <span className='text-gradient-anim'> fit your choice.</span></h1>
 
       <p className='md:block hidden text-gray-500 max-w-2xl mx-auto'>We bring 
       together world-class instructors, interactive content, and a supportive 

@@ -2,13 +2,21 @@ import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { AppContext } from '../../context/AppContext'
 import CourseCard from './CourseCard'
+import { useInView } from 'react-intersection-observer'
 
 const CourseSection = () => {
 
-  const {allCourses} = useContext(AppContext)
+  const {allCourses, scrollTo} = useContext(AppContext)
+
+  const {ref, inView} = useInView({
+    triggerOnce: false,
+    threshold: 0.3,
+  })
   
   return (
-    <div className='py-16 md:px-40 px-8'>
+    <div ref={ref} className={`py-16 md:px-40 px-8 transition-all duration-1000 ease-in-out ${
+      inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+    }`}>
       <h2 className='text-3xl font-medium text-gray-800'>Learn from the best</h2>
       <p className='text-sm md:text-base text-gray-500 mt-3'>Discover our top-rated 
       courses across various categories. From coding and design to <br /> business 

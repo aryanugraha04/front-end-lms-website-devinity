@@ -75,3 +75,20 @@
 .rich-text ul { margin-left: 30px; list-style-type: disc; }
 
 .rich-text li { margin-bottom: 8px; }
+
+/* --- TAMBAHKAN KODE ANIMASI SCROLLER DI SINI --- */
+
+/* Definisikan langkah-langkah animasi */
+@keyframes infinite-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Buat kelas untuk menerapkan animasi tersebut */
+.animate-infinite-scroll {
+  animation: infinite-scroll 40s linear infinite;
+}

@@ -21,7 +21,7 @@ const Dashboard = () => {
     md:p-8 md:pb-0 p-4 pt-8 pb-0'>
       <div className='space-y-5'>
         <div className='flex flex-wrap gap-5 items-center'>
-          <div className='flex items-center gap-2 shadow-card border border-blue-500 
+          <div className='flex items-center gap-2 shadow-card border border-orange-500 
           p-4 w-56 rounded-md'>
             <img src={assets.patients_icon} alt="patients_icon" />
             <div>
@@ -30,7 +30,7 @@ const Dashboard = () => {
               <p className='text-base text-gray-500'>Total Enrollments</p>
             </div>
           </div>
-          <div className='flex items-center gap-3 shadow-card border border-blue-500 
+          <div className='flex items-center gap-3 shadow-card border border-orange-500 
           p-4 w-56 rounded-md'>
             <img src={assets.appointments_icon} alt="appointments_icon" />
             <div>
@@ -39,7 +39,7 @@ const Dashboard = () => {
               <p className='text-base text-gray-500'>Total Courses</p>
             </div>
           </div>
-          <div className='flex items-center gap-3 shadow-card border border-blue-500 
+          <div className='flex items-center gap-3 shadow-card border border-orange-500 
           p-4 w-56 rounded-md'>
             <img src={assets.earning_icon} alt="earning_icon" />
             <div>
@@ -75,7 +75,8 @@ const Dashboard = () => {
                       src={item.student.imageUrl} 
                       alt="Profile" 
                       className='w-9 h-9 rounded-full'/>
-                    <span className='truncate'>{item.student.name}</span>
+                    {/* <span className='truncate'>{item.student.name}</span> */}
+                    <span className='truncate'>Arya Nugraha</span>
                   </td>
                   <td className='px-4 py-3 truncate'>{item.courseTitle}</td>
                 </tr>

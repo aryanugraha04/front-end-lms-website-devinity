@@ -9,6 +9,14 @@ import walmart_logo from './walmart_logo.svg'
 import accenture_logo from './accenture_logo.svg'
 import adobe_logo from './adobe_logo.svg'
 import paypal_logo from './paypal_logo.svg'
+import apple_logo from './apple_logo.svg'
+import figma_logo from './figma_logo.svg'
+import google_logo from './google_logo.svg'
+import grab_logo from './grab_logo.svg'
+import netflix_logo from './netflix_logo.svg'
+import slack_logo from './slack_logo.svg'
+import spotify_logo from './spotify_logo.svg'
+import telkom_university_logo from './telkom_university_logo.svg'
 import course_1_thumbnail from './course_1.png'
 import course_2_thumbnail from './course_2.png'
 import course_3_thumbnail from './course_3.png'
@@ -53,6 +61,14 @@ export const assets = {
     accenture_logo,
     adobe_logo,
     paypal_logo,
+    apple_logo,
+    figma_logo,
+    google_logo,
+    grab_logo,
+    netflix_logo,
+    slack_logo,
+    spotify_logo,
+    telkom_university_logo,
     course_1_thumbnail,
     course_2_thumbnail,
     course_3_thumbnail,
